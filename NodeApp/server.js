@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
   fs.readFile(filePath, 'utf8', (err, content) => {
     if (err) {
       res.writeHead(500, { 'Content-Type': 'text/plain' });
-      res.end('Internal Server Error test Update');
+      res.end('Internal Server Error test Update'+filePath);
       return;
     }
 
