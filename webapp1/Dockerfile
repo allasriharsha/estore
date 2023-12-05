@@ -4,8 +4,6 @@ FROM node:14 AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
-RUN npm init -y
-RUN npm npm install express mongoose ejs
 COPY . .
 RUN npm run build
 
