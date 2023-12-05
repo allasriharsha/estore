@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -12,7 +12,7 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/current/metro.css">
-    <script src="https://cdn.metroui.org.ua/current/metro.js"></script>
+
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -31,11 +31,46 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app. Test Modification</noscript>
+<div >
+    <ul class="h-menu">
+    <li><a href="#">Home</a></li>
+    <li>
+        <a href="#" class="dropdown-toggle">Services</a>
+        <ul class="d-menu" data-role="dropdown">
+            <li>
+                <a href="#" class="dropdown-toggle">Monitoring</a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li><a href="#">Prometheus</a></li>
+                    <li><a href="#">Grafana</a></li>
+                    <li class="divider"></li>
+
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="dropdown-toggle">Application Deployment</a>
+                <ul class="d-menu" data-role="dropdown">
+                    <li><a href="#">Prometheus</a></li>
+                    <li><a href="#">Grafana</a></li>
+                    <li class="divider"></li>
+
+                </ul>
+            </li>
+            <li><a href="#">Skype</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Office</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Support</a></li>
+    <li><a href="#">About Us</a></li>
+</ul>
+</div>
+<div class="container">
+
+      
        <h1 class="text-center">BlueNest Soft Inc</h1>
     <h3 class="text-center">Managed Cloud Service Provider</h3>
-      <h4 class="text-center">Under COnstruction</h4>
+      <h4 class="text-center">Under Construction</h4>
     <div data-role="cube"></div>
-
     <script src="https://cdn.metroui.org.ua/current/metro.js"></script>
     <!--<div id="root"></div>-->
     <!--
@@ -47,6 +82,10 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
     -->
+      <script src="https://cdn.metroui.org.ua/current/metro.js"></script
+      </div>
+      <div class="fixed-bottom" align="center">&copy BlueNest Soft Inc 2023</div>
   </body>
 </html>
