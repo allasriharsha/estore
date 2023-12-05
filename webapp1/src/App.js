@@ -10,7 +10,7 @@ function App() {
           BlueNest Soft Coming Soon ....
         </p>
       
-        </a>
+      
       </header>
     </div>
   );
